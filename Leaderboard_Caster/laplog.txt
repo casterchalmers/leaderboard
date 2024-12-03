@@ -1,0 +1,52 @@
+08-11-2023 (10:39:08): --- Session started (Race) ---
+20-03-2024 (17:07:50): --- Session started (Race) ---
+20-03-2024 (17:10:55): --- Session started (Race) ---
+20-03-2024 (17:13:37): laps 1 laptime 1:51:463 bestlap 1:51:463 odometer 4854.4 car "porsche_911_gt366" driver "Sim_1" track "autodromo_de_lunyachamps" fuel_use_l 1.194061 lapdistance 4863.587891
+20-03-2024 (17:15:23): laps 2 laptime 1:46:028 bestlap 1:46:028 odometer 9678.5 car "porsche_911_gt3" driver "Sim_1" track "autodromo_de_lunyachamps" fuel_use_l 1.150436 lapdistance 4863.587891
+20-03-2024 (17:17:22): laps 3 laptime 1:59:010 bestlap 1:46:028 odometer 14542.1 car "porsche_911_gt3" driver "Sim_1" track "autodromo_de_lunyachamps" fuel_use_l 1.239983 lapdistance 4863.587891
+20-03-2024 (17:17:22): [RACE_END] laps 4 londist "9729" bestlap 1:46:028 car "porsche_911_gt3" driver "Sim_1" track "autodromo_de_lunyachamps"
+20-03-2024 (17:17:49): --- Session started (Race) ---
+20-03-2024 (17:19:41): --- Session started (Race) ---
+20-03-2024 (17:22:09): [RACE_END] laps 1 londist "-1544" bestlap 0:00:000 car "cfs17" driver "Sim_1" track "autodromo_de_lunyachamps"
+20-03-2024 (17:22:35): --- Session started (Race) ---
+20-03-2024 (17:23:03): --- Session started (Race) ---
+20-03-2024 (17:24:23): laps 1 laptime 1:13:552 bestlap 1:13:552 odometer 2117.5 car "cfs17" driver "Sim_1" track "carlswood" fuel_use_l 0.000000 lapdistance 2087.856934
+20-03-2024 (17:25:32): laps 2 laptime 1:08:820 bestlap 1:08:820 odometer 4176.2 car "cfs17" driver "Sim_1" track "carlswood" fuel_use_l 0.000000 lapdistance 2087.856934
+20-03-2024 (17:26:37): laps 3 laptime 1:05:876 bestlap 1:05:876 odometer 6234.9 car "cfs17" driver "Sim_1" track "carlswood" fuel_use_l 0.000000 lapdistance 2087.856934
+20-03-2024 (17:26:37): [RACE_END] laps 4 londist "4176" bestlap 1:05:876 car "cfs17" driver "Sim_1" track "carlswood"
+20-03-2024 (17:27:02): --- Session started (Race) ---
+20-03-2024 (17:27:57): --- Session started (Race) ---
+20-03-2024 (17:28:08): [RACE_END] laps 0 londist "-5795" bestlap 0:00:000 car "cfs17_cfs19gfx" driver "Sim_1" track "autodromo_nazionale_monza"
+20-03-2024 (17:28:34): --- Session started (Race) ---
+20-03-2024 (17:29:26): --- Session started (Race) ---
+20-03-2024 (17:29:51): [RACE_END] laps 0 londist "-3462" bestlap 0:00:000 car "cfs17" driver "Sim_1" track "F1_Circuit_de_Monaco"
+20-03-2024 (17:30:17): --- Session started (Race) ---
+20-03-2024 (17:32:12): --- Session started (Race) ---
+20-03-2024 (17:33:58): laps 1 laptime 1:38:094 bestlap 1:38:094 odometer 4836.6 car "ferrari_f2004" driver "Sim_1" track "autodromo_de_lunyachamps" fuel_use_l 2.084846 lapdistance 4863.587891
+20-03-2024 (17:35:36): laps 2 laptime 1:37:784 bestlap 1:37:784 odometer 9668.1 car "ferrari_f2004" driver "Sim_1" track "autodromo_de_lunyachamps" fuel_use_l 1.860741 lapdistance 4863.587891
+20-03-2024 (17:37:16): laps 3 laptime 1:39:685 bestlap 1:37:784 odometer 14538.9 car "ferrari_f2004" driver "Sim_1" track "autodromo_de_lunyachamps" fuel_use_l 1.883614 lapdistance 4863.587891
+20-03-2024 (17:37:16): [RACE_END] laps 4 londist "9729" bestlap 1:37:784 car "ferrari_f2004" driver "Sim_1" track "autodromo_de_lunyachamps"
+20-03-2024 (17:37:41): --- Session started (Race) ---
+20-03-2024 (17:39:47): --- Session started (Race) ---
+20-03-2024 (17:41:49): laps 1 laptime 1:49:193 bestlap 1:49:193 odometer 4361.0 car "porsche_911_gt3" driver "Sim_1" track "red_bull_ring" fuel_use_l 1.073921 lapdistance 4422.045410
+20-03-2024 (17:43:27): laps 2 laptime 1:37:860 bestlap 1:37:860 odometer 8647.4 car "porsche_911_gt3" driver "Sim_1" track "red_bull_ring" fuel_use_l 1.062717 lapdistance 4422.045410
+20-03-2024 (17:45:03): laps 3 laptime 1:36:426 bestlap 1:36:426 odometer 12934.4 car "porsche_911_gt3" driver "Sim_1" track "red_bull_ring" fuel_use_l 1.075844 lapdistance 4422.045410
+20-03-2024 (17:45:03): [RACE_END] laps 4 londist "8847" bestlap 1:36:426 car "porsche_911_gt3" driver "Sim_1" track "red_bull_ring"
+20-03-2024 (17:45:31): --- Session started (Race) ---
+20-03-2024 (17:50:12): --- Session started (Race) ---
+20-03-2024 (17:52:16): laps 1 laptime 1:55:329 bestlap 1:55:329 odometer 4874.7 car "porsche_911_gt3" driver "Sim_1" track "autodromo_de_lunyachamps" fuel_use_l 1.190113 lapdistance 4863.587891
+20-03-2024 (17:54:02): laps 2 laptime 1:45:930 bestlap 1:45:930 odometer 9701.9 car "porsche_911_gt3" driver "Sim_1" track "autodromo_de_lunyachamps" fuel_use_l 1.177723 lapdistance 4863.587891
+20-03-2024 (17:55:44): laps 3 laptime 1:42:404 bestlap 1:42:404 odometer 14525.3 car "porsche_911_gt3" driver "Sim_1" track "autodromo_de_lunyachamps" fuel_use_l 1.175480 lapdistance 4863.587891
+20-03-2024 (17:55:44): [RACE_END] laps 4 londist "9729" bestlap 1:42:404 car "porsche_911_gt3" driver "Sim_1" track "autodromo_de_lunyachamps"
+20-03-2024 (17:56:09): --- Session started (Race) ---
+20-03-2024 (18:00:16): --- Session started (Race) ---
+20-03-2024 (18:02:29): laps 1 laptime 2:00:042 bestlap 2:00:042 odometer 4905.6 car "porsche_911_gt3" driver "Sim_1" track "autodromo_de_lunyachamps" fuel_use_l 1.263245 lapdistance 4863.587891
+20-03-2024 (18:04:22): laps 2 laptime 1:52:495 bestlap 1:52:495 odometer 9815.3 car "porsche_911_gt3" driver "Sim_1" track "autodromo_de_lunyachamps" fuel_use_l 1.209957 lapdistance 4863.587891
+20-03-2024 (18:06:08): laps 3 laptime 1:46:498 bestlap 1:46:498 odometer 14638.1 car "porsche_911_gt3" driver "Sim_1" track "autodromo_de_lunyachamps" fuel_use_l 1.117451 lapdistance 4863.587891
+20-03-2024 (18:06:08): [RACE_END] laps 4 londist "9729" bestlap 1:46:498 car "porsche_911_gt3" driver "Sim_1" track "autodromo_de_lunyachamps"
+20-03-2024 (18:06:35): --- Session started (Race) ---
+20-03-2024 (18:07:34): --- Session started (Race) ---
+20-03-2024 (18:10:20): laps 1 laptime 1:56:254 bestlap 1:56:254 odometer 4896.1 car "porsche_911_gt31" driver "Sim_1" track "autodromo_de_lunyachamps" fuel_use_l 1.219280 lapdistance 4863.587891
+20-03-2024 (18:12:09): laps 2 laptime 1:48:620 bestlap 1:48:620 odometer 9754.6 car "porsche_911_gt32" driver "Sim_1" track "autodromo_de_lunyachamps" fuel_use_l 1.192635 lapdistance 4863.587891
+20-03-2024 (18:13:55): laps 3 laptime 1:46:412 bestlap 1:46:412 odometer 14579.6 car "porsche_911_gt33" driver "Sim_1" track "autodromo_de_lunyachamps" fuel_use_l 1.166161 lapdistance 4863.587891
+20-03-2024 (18:15:52): laps 4 laptime 1:56:894 bestlap 1:46:412 odometer 19468.4 car "porsche_911_gt34" driver "Sim_1" track "autodromo_de_lunyachamps" fuel_use_l 1.132343 lapdistance 4863.587891
