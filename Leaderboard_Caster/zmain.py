@@ -2,6 +2,7 @@ import zlaplog_reader
 import zRFID
 import ztester
 import zrace_handler
+import threading
 #import znew_leaderboard
 
 '''def update_leaderboard(leaderboard_window, fastest_driver_label, leaderboard_label, groups, excel_filename):
@@ -30,7 +31,7 @@ def main():
         print(excel_filename)
 
         # Hämta RFID och kolla om den redan finns i data
-        input_rfid = zRFID.get_rfid()
+        '''input_rfid = zRFID.get_rfid()
 
         if input_rfid in df['RFID'].astype(str).values:
             # Om RFID redan finns, hämta namnet som är kopplat till det
@@ -57,7 +58,7 @@ def main():
 
         # RFID ska visas igen efter att race är klart
         print("Återstartar RFID-inmatningen...")
-        continue  # Startar om loopen för att återgå till RFID-inmatningen
+        continue  # Startar om loopen för att återgå till RFID-inmatningen'''
 
 if __name__ == "__main__":
     main()

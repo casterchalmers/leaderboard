@@ -7,6 +7,7 @@ excel_filename = None
 def set_excel_filename(track, car):
     """Sätt värdet på excel_filename baserat på track och car."""
     global excel_filename
+    #print(track, car)
     excel_filename = f"{track}_{car}.xlsx"
     return excel_filename
 # Kör set_excel_filename för att sätta värdet direkt vid import
