@@ -32,7 +32,7 @@ def find_track_car(track, car, bestlap):
     if session_started in last_line:
         start_time = int((last_line[12:20]).replace(":", ""))
         print(f"New session started at {start_time}")
-
+    #start_time = 175050
     if race_end in last_line:
         end_time = int((last_line[12:20]).replace(":", ""))
         print(f"Race ended at {end_time}")
@@ -65,5 +65,5 @@ def watch_file_for_updates():
             if track and car and bestlap:
                 print(f"Updated - Track: {track}, Car: {car}, Best Lap: {bestlap}")
 
-        time.sleep(2)  # Kontrollera filen varannan sekund
+        time.sleep(10)  # Kontrollera filen varannan sekund
 

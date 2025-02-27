@@ -16,22 +16,32 @@ def main():
 
     # Starta den kontinuerliga uppdateringen av leaderboard-fönstret
     #update_leaderboard(leaderboard_window, fastest_driver_label, leaderboard_label, groups, None)
-
+    #file_watcher_thread = threading.Thread(target=zlaplog_reader.watch_file_for_updates, daemon = True)
+    #file_watcher_thread.start()
     while True:
+        
         track, car, bestlap = None, None, None
-        print("HEj")
+        #print("HEj")
         # Hämta datum och tid
 
         # Hämta banan, bilen och bästa varvtiden från loggen
-        track, car, bestlap = zlaplog_reader.find_track_car(track, car, bestlap)
+        try:
+            track, car, bestlap = zlaplog_reader.find_track_car(track, car, bestlap)
+            # Hantera leaderboard-fil
+            excel_filename = ztester.set_excel_filename(track, car)
+            df = ztester.load_or_create_leaderboard()
+            print(excel_filename)
 
-        # Hantera leaderboard-fil
-        excel_filename = ztester.set_excel_filename(track, car)
-        df = ztester.load_or_create_leaderboard()
-        print(excel_filename)
+        except:
+            continue
+        
+
+
+        #zlaplog_reader.watch_file_for_updates()
+
 
         # Hämta RFID och kolla om den redan finns i data
-        '''input_rfid = zRFID.get_rfid()
+        input_rfid = zRFID.get_rfid()
 
         if input_rfid in df['RFID'].astype(str).values:
             # Om RFID redan finns, hämta namnet som är kopplat till det
@@ -58,7 +68,15 @@ def main():
 
         # RFID ska visas igen efter att race är klart
         print("Återstartar RFID-inmatningen...")
-        continue  # Startar om loopen för att återgå till RFID-inmatningen'''
-
+        continue  # Startar om loopen för att återgå till RFID-inmatningen
+        
 if __name__ == "__main__":
     main()
+
+
+
+
+
+#Leta upp senasted RACE end och hätma tiden
+#Laps tar bort best lap på skärmen och även om användaren sparar tiden
+
