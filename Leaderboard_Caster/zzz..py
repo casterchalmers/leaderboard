@@ -1,9 +1,9 @@
-import hashlib
-import time
+#import hashlib
+#import time
 
 
 
-
+'''
 def calculate_file_hash(laplog_path):
     with open(laplog_path, "rb") as f:
         file_hash = hashlib.sha256(f.read()).hexdigest()
@@ -20,6 +20,63 @@ def detect_file_changes(laplog_path):
 
 # Usage
 detect_file_changes("H:\TESTKORNING\Leaderboard_Caster\laplog.txt")
+'''
+
+'''
+# Läser av hela filen vid början nedifrån och upp och slutar vid "laps".
+def read_file_reverse(filepath):
+    with open(filepath, 'r', encoding='utf-8') as file:
+        lines = file.readlines()
+
+    # Börja läsa från sista raden
+    for line in reversed(lines):
+        print(line.strip())
+        if 'laps' in line:
+            break
+
+
+# Exempel på användning
+read_file_reverse("D:\\Studier\\Chalmers\\Caster\\Github_Leaderboard\\leaderboard\\Leaderboard_Caster\\laplog.txt")
+'''
+
+# 1. Tiden kommer fram på skärmen när den hittar" RACE END".
+#    När txt-filen uppdateras ska programmet känna av det och därefter försöka hitta "RACE END"
+
+# 2. Användaren väljer att trycka på "SAVE TIME" och scannar RFID och skriver in sitt namn
+
+# 3. När txt-filen uppdateras till "SESSION STARTED" ta bort tiden från skärmen
+
+
+# 1-3 loopas om och om igen
+import time
+
+def monitor_file(filepath):
+    with open(filepath, 'r', encoding='utf-8') as file:
+        file.seek(0, 2)  # Gå till slutet av filen
+
+        while True:
+            line = file.readline()
+            if not line:
+                time.sleep(0.5)  # Vänta en halv sekund innan nästa försök
+                continue
+
+            print(line.strip())
+            if 'laps' in line:
+                print("STOP")
+                break
+
+monitor_file("D:\\Studier\\Chalmers\\Caster\\Github_Leaderboard\\leaderboard\\Leaderboard_Caster\\laplog.txt")
+
+
+
+
+
+
+
+
+
+
+
 
 
 
